@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+.grid {
+  display: flex;
+  width: 600px;
+  flex-wrap: wrap;
+}
+
+.square {
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+}
+
+.mole {
+  background-image: url(/assets/mole.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.start {
+  padding: 10px;
+}

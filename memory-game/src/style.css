@@ -1,0 +1,16 @@
+:root {
+  --card-width: 150px;
+  --card-height: var(--card-width);
+}
+
+.card-grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, var(--card-width));
+  gap: 10px;
+}
+
+.card {
+width: var(--card-width);
+aspect-ratio: 1 / 1;
+  background-color: red;
+}
